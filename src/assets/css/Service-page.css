@@ -1993,9 +1993,10 @@
 }
 
 .modern-title .text-gradient {
-  background: linear-gradient(90deg, #66c7dd, #388bff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, #66c7dd, #388bff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .modern-desc {
